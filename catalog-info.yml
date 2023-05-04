@@ -13,7 +13,7 @@ maintainers:
 
 repository:
   type: git
-  url: https://github.com/example/sample-catalog.git
+  url: https://github.com/abyemj/backstage-demo.git
   branch: main
 
 tags:
