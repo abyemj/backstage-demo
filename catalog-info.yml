@@ -1,0 +1,33 @@
+name: Sample Catalog
+description: This is a sample catalog for demonstration purposes.
+version: 1.0
+license: Apache-2.0
+
+maintainers:
+  - name: Afa Abyem
+    email: afa.abyem@gmail.com
+    github: abyemj
+  - name: Elias
+    email: elias@gmail.com
+    github: elias
+
+repository:
+  type: git
+  url: https://github.com/example/sample-catalog.git
+  branch: main
+
+tags:
+  - example
+  - demo
+
+dependencies:
+  - name: pandas
+    version: ^1.0.3
+    description: Data analysis library
+    license: BSD-3-Clause
+    homepage: https://pandas.pydata.org/
+  - name: scikit-learn
+    version: ^0.24.2
+    description: Machine learning library
+    license: BSD-3-Clause
+    homepage: https://scikit-learn.org/stable/
